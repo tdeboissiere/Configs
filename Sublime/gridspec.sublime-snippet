@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+    fig = plt.figure(figsize=(${1:size1}, ${2:size2}))
+    gs = gridspec.GridSpec(${3:size3},${4:size4})
+    for i in range(${5:size5}):
+        ax = plt.subplot(gs[i])
+    ]]></content>
+	<tabTrigger>gridspec</tabTrigger>
+	<scope>source.python</scope>
+</snippet>

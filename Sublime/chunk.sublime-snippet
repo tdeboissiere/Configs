@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[num_elem = ${1:size1}
+chunk_size = ${2:size2}
+num_chunks = num_elem / chunk_size
+list_chunks = np.array_split(np.arange(num_elem), num_chunks)
+for index, chunk_idx in enumerate(list_chunks):]]></content>
+    <tabTrigger>chunk</tabTrigger>
+    <scope>source.python</scope>
+</snippet>

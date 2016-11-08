@@ -1,0 +1,7 @@
+<snippet>
+    <content><![CDATA[import matplotlib.pylab as plt
+import matplotlib.gridspec as gridspec
+from matplotlib.pyplot import cm]]></content>
+    <tabTrigger>matplotlib</tabTrigger>
+    <scope>source.python</scope>
+</snippet>
