@@ -6,6 +6,8 @@
 
 ## Your .zshrc can look like this
 
+    https://github.com/tdeboissiere/Configs/blob/master/zshrc/zshrc
+
 ## Change shell
 
     chsh -s $(which zsh)
