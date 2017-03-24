@@ -21,3 +21,7 @@ Copy snippets or package settings to:
 [Anaconda.sublime-settings](https://github.com/tdeboissiere/Configs/blob/master/Sublime/Anaconda.sublime-settings) : settings for Anaconda linting online doc etc
 
 [DocblockrPython.sublime-settings](https://github.com/tdeboissiere/Configs/blob/master/Sublime/DocblockrPython.sublime-settings) : settings for Python quick doco writingimport
+
+## General settings
+
+[Preferences.sublime-settings](https://github.com/tdeboissiere/Configs/blob/master/Sublime/Preferences.sublime-settings) : settings for Python quick doco writingimport
