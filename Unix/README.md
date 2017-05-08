@@ -43,3 +43,7 @@ gnome-terminal --window --maximize
 sudo apt-get install dconf-cli
 # select monokai
 wget -O xt https://git.io/vKOB6 && chmod +x xt && ./xt && rm xt
+
+
+## Allow alt tabbing only across current workspace
+gsettings set org.gnome.shell.app-switcher current-workspace-only true
