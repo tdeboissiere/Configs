@@ -15,3 +15,7 @@ Makefiles and Configs for some DeepLearning libraries.
 [zshrc folder](https://github.com/tdeboissiere/Configs/tree/master/zshrc)
 
 Configuring the zshell.
+
+[python folder](https://github.com/tdeboissiere/Configs/tree/master/python)
+
+Configuring python.
