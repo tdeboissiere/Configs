@@ -32,3 +32,8 @@ sh -c "$(wget https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/to
 
 sudo apt-get install gnome-shell
 (choose lightdm rather than gdm3 to avoid UI manager conflicts)
+
+## Launch terminal as a maximized terminal
+
+Edit keyboard shortcut (custom shortcut) with the command:
+gnome-terminal --window --maximize
