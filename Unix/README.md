@@ -37,3 +37,9 @@ sudo apt-get install gnome-shell
 
 Edit keyboard shortcut (custom shortcut) with the command:
 gnome-terminal --window --maximize
+
+## Nice color scheme for terminal
+
+sudo apt-get install dconf-cli
+# select monokai
+wget -O xt https://git.io/vKOB6 && chmod +x xt && ./xt && rm xt
