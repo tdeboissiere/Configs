@@ -1,8 +1,8 @@
 # Configs: repository to store config files
 
-[Elementary OS](https://github.com/tdeboissiere/Configs/tree/master/ElementaryOS)
+[Unix](https://github.com/tdeboissiere/Configs/tree/master/Unix)
 
-Set up a fresh Elementary OS install.
+Set up a fresh Unix install.
 
 [Sublime folder](https://github.com/tdeboissiere/Configs/tree/master/Sublime)
 
