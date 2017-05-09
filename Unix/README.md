@@ -47,3 +47,7 @@ wget -O xt https://git.io/vKOB6 && chmod +x xt && ./xt && rm xt
 
 ## Allow alt tabbing only across current workspace
 gsettings set org.gnome.shell.app-switcher current-workspace-only true
+
+## Install dash to panel for gnome 3
+sudo apt-get install chrome-gnome-shell
+# then go to gnome shell extension website to install required ones
