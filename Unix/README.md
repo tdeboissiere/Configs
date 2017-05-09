@@ -14,7 +14,7 @@ sudo apt-get autoremove
 sudo apt-get autoclean
 
 ##Install Useful apps
-sudo apt-get install guake redshift synapse baobab hdfview
+sudo apt-get install guake redshift synapse baobab hdfview graphviz
 
 ## Install Sublime Text 3 (see website for .deb package)
 
