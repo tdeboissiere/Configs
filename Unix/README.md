@@ -13,8 +13,9 @@ sudo apt-get install google-chrome-stable
 sudo apt-get autoremove
 sudo apt-get autoclean
 
-##Install Useful apps
-sudo apt-get install guake redshift synapse baobab hdfview graphviz openssh-server
+## Install Useful apps
+sudo apt-get install guake redshift synapse baobab hdfview graphviz openssh-server htop
+Add redshift and guake to startup app with the Startup Application program
 
 ## Install Sublime Text 3 (see website for .deb package)
 
@@ -51,3 +52,14 @@ gsettings set org.gnome.shell.app-switcher current-workspace-only true
 ## Install dash to panel for gnome 3
 sudo apt-get install chrome-gnome-shell
 # then go to gnome shell extension website to install required ones
+
+## Install adapta theme and numix icons and moka icons
+
+sudo add-apt-repository ppa:numix/ppa
+sudo add-apt-repository ppa:tista/adapta
+sudo add-apt-repository ppa:moka/daily
+sudo apt-get update
+
+sudo apt-get install moka-icon-theme adapta-gtk-theme numix-gtk-theme numix-icon-theme-circle
+
+
