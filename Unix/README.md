@@ -1,16 +1,17 @@
 # Unix configuration
 
-##First you update your system
-sudo apt-get update && sudo apt-get dist-upgrade
+## First you update your system
 
-##Install Google Chrome
+  sudo apt-get update && sudo apt-get dist-upgrade
+
+## Install Google Chrome
 
   wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | sudo apt-key add -
   sudo sh -c 'echo "deb http://dl.google.com/linux/chrome/deb/ stable main" >> /etc/apt/sources.list.d/google-chrome.list'
   sudo apt-get update
   sudo apt-get install google-chrome-stable
 
-##Clean-up System
+## Clean-up System
 
   sudo apt-get autoremove
   sudo apt-get autoclean
@@ -53,7 +54,7 @@ Edit keyboard shortcut (custom shortcut) with the command:
 ## Nice color scheme for terminal
 
   sudo apt-get install dconf-cli
-  # select monokai
+  #select monokai
   wget -O xt https://git.io/vKOB6 && chmod +x xt && ./xt && rm xt
 
 
@@ -64,7 +65,7 @@ Edit keyboard shortcut (custom shortcut) with the command:
 ## Install dash to panel for gnome 3
 
   sudo apt-get install chrome-gnome-shell
-  # then go to gnome shell extension website to install required ones
+  #then go to gnome shell extension website to install required ones
 
 ## Install adapta theme and numix icons and moka icons
 
