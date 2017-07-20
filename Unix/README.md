@@ -2,7 +2,7 @@
 
 ## First you update your system
 
-  sudo apt-get update && sudo apt-get dist-upgrade
+  `sudo apt-get update && sudo apt-get dist-upgrade`
 
 ## Install Google Chrome
 
@@ -13,8 +13,8 @@
 
 ## Clean-up System
 
-  sudo apt-get autoremove
-  sudo apt-get autoclean
+  `sudo apt-get autoremove`
+  `sudo apt-get autoclean`
 
 ## Install Useful apps
 
@@ -34,14 +34,18 @@ Add redshift and guake to startup app with the Startup Application program
 
 ## Install zshell and oh my zsh
 
+  ```
   sudo apt-get install zshell
   chsh -s $(which zsh)
   sh -c "$(wget https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -)"
+  ```
 
 
 ## Install gnome shell
 
+`
   sudo apt-get install gnome-shell
+`
 
 (choose lightdm rather than gdm3 to avoid UI manager conflicts)
 
