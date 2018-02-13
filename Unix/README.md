@@ -27,7 +27,17 @@
 
 Add redshift and guake to startup app with the Startup Application program
 
-# Install math fonts to print PDF with formulaes
+## Install nice wallpaper
+
+http://www.omgubuntu.co.uk/2016/10/amazing-linux-penguin-wallpaper
+
+## Configure desktop with tweak tool
+
+Open gnome-tweak-tool and then;
+
+
+
+## Install math fonts to print PDF with formulaes
 
   `sudo apt-get installfonts-mathjax`
 
@@ -88,6 +98,14 @@ Edit keyboard shortcut (custom shortcut) with the command:
   sudo apt-get update
 
   sudo apt-get install moka-icon-theme adapta-gtk-theme numix-gtk-theme numix-icon-theme-circle
+  
+  # Paper
+  sudo add-apt-repository ppa:snwh/pulp
+  sudo apt-get update
+  sudo apt-get install paper-icon-theme
+  sudo apt-get install paper-cursor-theme
+  sudo apt-get install paper-gtk-theme
+  
   ```
 
 ## Install node js > 6
