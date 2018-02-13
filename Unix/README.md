@@ -128,3 +128,11 @@ In Settings/Sound, disable alerts
 
 Add redshift (command = /usr/bin/redshift)
 Add guake (command = guake)
+
+## Install latex
+
+sudo apt-get install texlive-latex-base
+sudo apt-get install texlive-fonts-recommended
+sudo apt-get install texlive-fonts-extra
+sudo apt-get install texlive-latex-extra
+
