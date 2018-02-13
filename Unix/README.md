@@ -67,9 +67,8 @@ Edit keyboard shortcut (custom shortcut) with the command:
 
   ```
   sudo apt-get install dconf-cli
-  #select monokai
-  wget -O xt https://git.io/vKOB6 && chmod +x xt && ./xt && rm xt
-  ```
+  #select monokai dark
+  wget -O gogh https://git.io/vQgMr && chmod +x gogh && ./gogh && rm gogh  ```
 
 
 ## Allow alt tabbing only across current workspace
