@@ -192,7 +192,7 @@
         Note: Take into account that depending on the size of the file you
         want to autoformat, this can take a while
     */
-    "auto_formatting_timeout": 1,  // seconds
+    "auto_formatting_timeout": 6,  // seconds
 
     /*
         Enable unsafe changes:
