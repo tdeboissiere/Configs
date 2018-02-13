@@ -124,9 +124,7 @@ In Settings/Keyboard/Shortcuts : deactivate the launch new terminal shortcut, cr
 
 In Settings/Sound, disable alerts
 
-## Install node js > 6
+## Startup applications
 
-  ```
-  curl -sL https://deb.nodesource.com/setup_6.x | sudo -E bash -
-  sudo apt-get install -y nodejs
-  ```
+Add redshift (command = /usr/bin/redshift)
+Add guake (command = guake)
