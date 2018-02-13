@@ -120,6 +120,10 @@ Shortcuts:
 In Settings/Keyboard/Shortcuts : deactivate the launch new terminal shortcut, create a new one with the following command `gnome-terminal --window --maximize`
 
 
+## Sound
+
+In Settings/Sound, disable alerts
+
 ## Install node js > 6
 
   ```
