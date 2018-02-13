@@ -22,7 +22,7 @@
 
 ## Install Useful apps
 
-  `sudo apt-get install guake redshift synapse baobab hdfview graphviz openssh-server htop vim git`
+  `sudo apt-get install guake redshift synapse baobab hdfview graphviz openssh-server htop vim git gnome-tweak-tool`
 
 
 Add redshift and guake to startup app with the Startup Application program
