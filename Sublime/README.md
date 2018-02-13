@@ -1,6 +1,13 @@
 # Sublime config: snippets, plugins
 
-Copy snippets or package settings to:
+## Install following packages:
+
+Monokai Extended
+Anaconda
+DocBlockr_Python
+Soda Dark3
+
+## Copy snippets or package settings to:
 
 /home/<username>/.config/sublime-text-3/Packages/User
 
