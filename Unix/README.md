@@ -57,20 +57,6 @@ http://www.omgubuntu.co.uk/2016/10/amazing-linux-penguin-wallpaper
 
 (choose lightdm rather than gdm3 to avoid UI manager conflicts)
 
-## Launch terminal as a maximized terminal
-
-Edit keyboard shortcut (custom shortcut) with the command:
-
-  `gnome-terminal --window --maximize`
-
-## Nice color scheme for terminal
-
-  ```
-  sudo apt-get install dconf-cli
-  #select monokai dark
-  wget -O gogh https://git.io/vQgMr && chmod +x gogh && ./gogh && rm gogh  ```
-
-
 ## Allow alt tabbing only across current workspace
 
   `gsettings set org.gnome.shell.app-switcher current-workspace-only true`
@@ -97,9 +83,9 @@ Edit keyboard shortcut (custom shortcut) with the command:
   sudo apt-get update
   sudo apt-get install paper-icon-theme
   sudo apt-get install paper-cursor-theme
-  sudo apt-get install paper-gtk-theme
-  
+  sudo apt-get install paper-gtk-theme  
   ```
+
 ## Configure desktop with tweak tool
 
 Open gnome-tweak-tool and then:
@@ -111,6 +97,27 @@ For Dash to Panel, select size 32 instead of 48 and choose display on top. In be
 For TopIconPlus, set ray alignment to right
 
 In Appearance, select Adapta as theme, Paper for Icons, Shell theme as Adapta
+
+
+## Configure terminal
+
+
+Nice color scheme for terminal
+
+  ```
+  sudo apt-get install dconf-cli
+  #select monokai dark
+  wget -O gogh https://git.io/vQgMr && chmod +x gogh && ./gogh && rm gogh  
+  ```
+In Edit/Profile Preferences
+
+- Give a name to the profile
+- In Colours, untick User colors from system scheme
+- In scrolling, untick keystroke and limit scrollback
+
+Shortcuts:
+
+In Settings/Keyboard/Shortcuts : deactivate the launch new terminal shortcut, create a new one with the following command `gnome-terminal --window --maximize`
 
 
 ## Install node js > 6
