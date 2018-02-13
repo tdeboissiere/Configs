@@ -108,7 +108,7 @@ Open gnome-tweak-tool and then:
 In Extensions, install the gnome shell extensions app, then install: TopIcons Plus, User Theme, Dash to Dock and Dash to Panel
 
 For Dash to Dock, select bottom position and in launchers, untick show open window on preview
-For Dash to Panel, select size 32 instead of 48 and choose display on top. In behaviour tag, untick favorite applications and show on preview
+For Dash to Panel, select size 32 instead of 48 and choose display on top. In behaviour tag, untick show on preview
 For TopIconPlus, set ray alignment to right
 
 In Appearance, select Adapta as theme, Paper for Icons, Shell theme as Adapta
