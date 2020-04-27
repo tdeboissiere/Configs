@@ -35,9 +35,6 @@ http://www.omgubuntu.co.uk/2016/10/amazing-linux-penguin-wallpaper
 
   `sudo apt-get installfonts-mathjax`
 
-## Install Sublime Text 3 (see website for .deb package)
-
-  `https://www.sublimetext.com/3`
 
 
 ## Install zshell and oh my zsh
@@ -64,27 +61,34 @@ http://www.omgubuntu.co.uk/2016/10/amazing-linux-penguin-wallpaper
 ## Install dash to panel for gnome 3
 
   ```
-  sudo apt-get install chrome-gnome-shell
+  sudo apt-get install chrome-gnome-shell 
+  sudo apt-get install libproxy1-plugin-networkmanager gnome-shell-extension-system-monitor
   #then go to gnome shell extension website to install required ones
   ```
 
-## Install adapta theme and numix icons and moka icons
+## Install equinux theme + Paper icons
 
   ```
-  sudo add-apt-repository ppa:numix/ppa
-  sudo add-apt-repository ppa:tista/adapta
-  sudo add-apt-repository ppa:moka/daily
-  sudo apt-get update
-
-  sudo apt-get install moka-icon-theme adapta-gtk-theme numix-gtk-theme numix-icon-theme-circle
-  
-  # Paper
-  sudo add-apt-repository ppa:snwh/pulp
-  sudo apt-get update
-  sudo apt-get install paper-icon-theme
-  sudo apt-get install paper-cursor-theme
-  sudo apt-get install paper-gtk-theme  
+  https://github.com/ddnexus/equilux-theme
+  https://snwh.org/paper/download
   ```
+
+## Install Firefox color +  equilux
+
+```
+https://addons.mozilla.org/en-US/firefox/addon/firefox-color/?src=search
+https://github.com/cj-sv/equilux-firefox
+```
+
+## Install zsh plugins
+
+```
+git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
+git clone --recursive https://github.com/joel-porquet/zsh-dircolors-solarized ~/.zsh/zsh-dircolors-solarized
+git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
+~/.fzf/install
+```
 
 ## Configure desktop with tweak tool
 
@@ -99,6 +103,10 @@ For TopIconPlus, set ray alignment to right
 In Appearance, select Adapta as theme, Paper for Icons, Shell theme as Adapta
 
 
+## Add Night Light
+
+- Display => Night light
+
 ## Configure terminal
 
 
@@ -109,11 +117,14 @@ Nice color scheme for terminal
   #select monokai dark
   wget -O gogh https://git.io/vQgMr && chmod +x gogh && ./gogh && rm gogh  
   ```
+
 In Edit/Profile Preferences
 
 - Give a name to the profile
 - In Colours, untick User colors from system scheme
 - In scrolling, untick keystroke and limit scrollback
+- In Shortcuts, update ctrl+c and ctrl+v
+- Untick sound
 
 Shortcuts:
 
@@ -124,10 +135,6 @@ In Settings/Keyboard/Shortcuts : deactivate the launch new terminal shortcut, cr
 
 In Settings/Sound, disable alerts
 
-## Startup applications
-
-Add redshift (command = /usr/bin/redshift)
-Add guake (command = guake)
 
 ## Install latex
 
