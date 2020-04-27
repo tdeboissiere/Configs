@@ -73,6 +73,15 @@ http://www.omgubuntu.co.uk/2016/10/amazing-linux-penguin-wallpaper
   https://snwh.org/paper/download
   ```
 
+```
+Layan: https://github.com/vinceliuice/Layan-gtk-theme
+papirus: https://github.com/PapirusDevelopmentTeam/papirus-icon-theme/#ubuntu-and-derivatives
+```
+
+## Arc Extension for gnome
+
+    sudo apt install gnome-shell-extensions gnome-menus gir1.2-gmenu-3.0
+
 ## Install Firefox color +  equilux
 
 ```
